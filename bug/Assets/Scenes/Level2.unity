@@ -2219,7 +2219,7 @@ Transform:
   m_GameObject: {fileID: 769097796}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -960, y: -536.82, z: 0.6968279}
+  m_LocalPosition: {x: -960, y: -539.24, z: 0.6968279}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3902,7 +3902,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -300}
+  m_AnchoredPosition: {x: 0, y: -270}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1185376771
@@ -6392,12 +6392,12 @@ MonoBehaviour:
   Windia: {fileID: 2039678629}
   minActivateTime: 0.5
   maxActivateTime: 2
-  PlaneLine: -3
+  PlaneLine: -2.5
   spawnLineY: 4.5
   songPosition: 0
   isPlaying: 0
-  perfectWindow: 0.15
-  missWindow: 0.16
+  perfectWindow: 0.2
+  missWindow: 0.4
 --- !u!4 &1649935899
 Transform:
   m_ObjectHideFlags: 0

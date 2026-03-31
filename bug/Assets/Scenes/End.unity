@@ -4265,7 +4265,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 431583153}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -4297,7 +4297,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 431583156}
   m_OnClick:
     m_PersistentCalls:
@@ -12193,12 +12193,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popupPrefab: {fileID: 2324790963333481111, guid: 6693ba3064d2a574f9dc850a303eae70, type: 3}
-  popupCount: 150
+  popupCount: 60
   spawnInterval: 0.1
   clearDelay: 1
+  poolSize: 65
   button1: {fileID: 2014113498}
   button2: {fileID: 953346497}
   targetObject: {fileID: 1810194201}
+  minScale: 1
+  maxScale: 2.5
 --- !u!114 &1615649111
 MonoBehaviour:
   m_ObjectHideFlags: 0
