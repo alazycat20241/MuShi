@@ -6390,7 +6390,7 @@ MonoBehaviour:
   - {fileID: 1427083144}
   Fcdia: {fileID: 1655648391}
   Windia: {fileID: 2039678629}
-  minActivateTime: 0.5
+  minActivateTime: 1.5
   maxActivateTime: 2
   PlaneLine: -2.5
   spawnLineY: 4.5

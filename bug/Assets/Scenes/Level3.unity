@@ -283,6 +283,7 @@ MonoBehaviour:
   - {fileID: 2091194021536757430, guid: e08815711ee2aa740ab599775a2b00ce, type: 3}
   moveSpeed: 4
   playerTransform: {fileID: 1693132893}
+  sameColorProbability: 0.6
   _startButton: {fileID: 576417719}
 --- !u!1 &102316728
 GameObject:
@@ -337,6 +338,7 @@ MonoBehaviour:
   _Generator: {fileID: 60339764}
   _startButton: {fileID: 576417719}
   isPlaying: 0
+  WIN_SCORE: 5
 --- !u!1 &117544268
 GameObject:
   m_ObjectHideFlags: 0
